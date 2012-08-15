@@ -7,7 +7,7 @@ Though Jekyll provides pagination, it is only available in index pages. jekyll-t
 
 Installation
 ------------
-Copy `tags-pagination.rb` file into `_plugins` directory (you might need to create it before).
+Copy `tags-pagination.rb` file into `_plugins` directory (you might need to create it).
 
 Usage
 -----
@@ -24,4 +24,4 @@ In your `_layouts` directory, create file `tag.html`. That template is used to c
         {{ post.title }}
     {% endfor %}
 
-`paginator` object provides tag information, use `pagination.tag` for that.
+`paginator` object provides tag information, use `paginator.tag` for that.
