@@ -20,7 +20,7 @@ In your post's YAML front matter, add tags like this:
 
 In your `_layouts` directory, create file `tag.html`. That template is used to create an index page for every tag mentioned in posts. Inside that template, use `paginator` object like this:
 
-    {% for post in paginator.post %}
+    {% for post in paginator.posts %}
         {{ post.title }}
     {% endfor %}
 
