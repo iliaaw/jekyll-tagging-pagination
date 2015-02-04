@@ -39,7 +39,7 @@ module Jekyll
     end
   end
 
-  class TagPager < Pager 
+  class TagPager < Jekyll::Paginate::Pager 
     attr_reader :tag
 
     def initialize(site, page, all_posts, tag, num_pages = nil)
